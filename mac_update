@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # define default values
-CMDFILE="save"
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+CMDFILE="$DIR/save"
 
 # help information
 HELPSTRING="mac_update.sh v0.1 bash script to update command line applications
@@ -70,4 +71,4 @@ while IFS='' read -r line || [[ -n $line ]]; do
     $rmcomment                   # run command
 done < "$CMDFILE"
 
-echo "All up-to-date."
+echo "Done running mac_update."
