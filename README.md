@@ -1,17 +1,17 @@
 mac_update
 ==========
 
-Update command line programmes with just running one script.
+Update command line programmes by running a single script.
 
-**The use is fully responsible for any actions performed by the script. The repository owner, not it's contributors can be held responsible for any damage or file loss to your system.**
+**The user is fully responsible for any actions performed by the script. The repository owner, nor it's contributors can be held responsible for any damage or file loss to your system.**
 
 Installation
 ------------
 
 1. Open Terminal (`CMD-SPACE` + terminal)
-2. Go to the location you want the script to be installed (e.g. `~/Documents/mac_update`).
+2. Go to the location you want the script to install (e.g. `~/Documents/mac_update`).
 3. Download the files: `git clone https://github.com/opieters/mac_update.git`
-4. Make script executable: `chmod +x mac_update.sh`
+4. Make script executable: `chmod +x mac_update`
 5. Print the current directory out: `pwd` (save this for later!)
 6. Add the install location to your path:
     1. Go to Home directory: `cd ~`
@@ -21,9 +21,9 @@ Installation
 Usage
 -----
 
-Update programmes: `mac_update.sh`
+Update programmes by typing `mac_update` in terminal.
 
-Arguments:
+Optional arguments:
 
 | CLI option                       | function                                                                |
 |----------------------------------|-------------------------------------------------------------------------|
