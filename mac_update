@@ -55,7 +55,7 @@ fi
 # add command to file
 if [ "$ADDCMD" != "" ];
 then
-    cat "$ADDCMD" >> "$CMDFILE"
+    echo "$ADDCMD" >> "$CMDFILE"
     exit
 fi
 
