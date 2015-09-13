@@ -32,7 +32,9 @@ Optional arguments:
 | `-q` or `--quiet`                | suppress any command line output of commands run                        |
 | `-f` or `--cmdfile`              | specify the update-command-list file with : `mac_update -f no_sudo.cmd` |
 
-For some programs (like `tlmgr`) you must run the script with administrator privileges. Add the `sudo` command before `mac_update` to run with administrator privileges.
+For some programs (like `tlmgr`) you must run the script with administrator privileges. Add the `sudo` command before these commands to run with administrator privileges. You will be asked for the password when a `sudo` command is run. Do not run the script with `sudo`, because some programmes (e.g. `brew`) do not work if runned as `sudo`.
+
+**Attention!** If the the script is run in quiet mode, the prompt for password from `sudo` will not be printed, but the imput is expected. 
 
 License
 -------
